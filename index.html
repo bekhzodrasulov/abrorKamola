@@ -1,0 +1,222 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abror & Kamola</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script>
+      // Блокировать правый клик
+      document.addEventListener("contextmenu", (e) => e.preventDefault());
+
+      // Блокировать F12 и другие клавиши
+      document.addEventListener("keydown", function (e) {
+        if (
+          e.key === "F12" ||
+          (e.ctrlKey &&
+            e.shiftKey &&
+            (e.key === "I" || e.key === "J" || e.key === "C")) ||
+          (e.ctrlKey && e.key === "U") ||
+          (e.shiftKey && e.ctrlKey && e.key === "J")
+        ) {
+          e.preventDefault();
+        }
+      });
+    </script> -->
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="hero fade-in-on-scroll delay-1">
+        <img class="rose-left-header" src="images/rose12.png" alt="" />
+        <h1 calssName="fristWords">
+          <span>A</span
+          ><img style="height: 30px" src="images/vs.png" alt="and" /><span
+            >K</span
+          >
+        </h1>
+        <img class="rose-right-header" src="images/rose5.png" alt="" />
+      </div>
+
+      <div class="date-section fade-in-on-scroll delay-2">
+        <div class="music-control">
+          <button id="playButton">
+            <img
+              style="height: 50px"
+              id="playIcon"
+              src="images/play.png"
+              alt="Play"
+            />
+          </button>
+          <audio id="bgMusic" src="wedding.mp3"></audio>
+        </div>
+      </div>
+
+      <div class="date-section fade-in-on-scroll delay-3">
+        <p class="wedding-date">28/06/2026</p>
+        <p class="text">
+          Sizni hayotimizning eng go'zal va baxtli onlarida baxtimizga sherik
+          bo'lishingizni istab shodiyonamizga taklif etamiz!
+        </p>
+        <div>
+          <img class="rose-middle-data" src="images/rose14.png" alt="rose" />
+        </div>
+        <div class="hurmat-bilan">Hurmat bilan</div>
+        <div class="names">Abror va Kamola</div>
+        <div class="underline"><hr /></div>
+        <div class="time">17:00</div>
+      </div>
+
+      <div class="countdown-container fade-in-on-scroll delay-4">
+        <div class="countdown">
+          <div>
+            <span id="days">0</span>
+            <p>kun</p>
+          </div>
+          <div>
+            <span id="hours">0</span>
+            <p>soat</p>
+          </div>
+          <div>
+            <span id="minutes">0</span>
+            <p>daqiqa</p>
+          </div>
+          <div>
+            <span id="seconds">0</span>
+            <p>soniya</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="calendar fade-in-on-scroll delay-5">
+        <p>İyun</p>
+        <table>
+          <tr>
+            <th>Du</th>
+            <th>Se</th>
+            <th>Cho</th>
+            <th>Pa</th>
+            <th>Ju</th>
+            <th>Sha</th>
+            <th>Ya</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+          </tr>
+          <tr>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+            <td class="highlight">28</td>
+          </tr>
+          <tr>
+            <td>29</td>
+            <td>30</td>
+            <td>31</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="fade-in-on-scroll delay-6">
+        <img class="rose-middle" src="images/rose10.png" alt="" />
+      </div>
+
+      <div class="location fade-in-on-scroll delay-7">
+        <p class="location-restaurant">Restoran</p>
+        <h1 class="restaurant-name">Labi Hovuz</h1>
+        <p class="location-address">
+          Farg'ona shahar,<br />
+          Soy Bo'yi ko'chasi
+        </p>
+        <div class="location-icon-box">
+          <a target="_blank" href="https://yandex.uz/maps/-/CPX~4IyY"
+            ><img
+              class="location-icon"
+              src="images/location.png"
+              alt="location"
+          /></a>
+          <a
+            href="https://yandex.uz/maps/-/CPX~4IyY"
+            target="_blank"
+            class="location-label"
+            >Lokatsiya</a
+          >
+          <img class="rose-left-footer" src="images/rose12.png" alt="" />
+        </div>
+        <div>
+          <p class="location-welcome">
+            Biz sizni <br />
+            28 iyun soat 17:00da <br />
+            kutamiz
+          </p>
+          <img class="rose-right-footer" src="images/rose3.png" alt="roses" />
+        </div>
+        <div className="footer fade-in">
+          <p class="family-name">Hurmat bilan, Abdulayevlar oilasi</p>
+          <p>
+            <a class="footer-link" href="https://t.me/inviteuio">inviteu.io</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+              observer.unobserve(entry.target); // один раз показать
+            }
+          });
+        },
+        {
+          threshold: 0.2,
+        },
+      );
+
+      document.querySelectorAll(".fade-in-on-scroll").forEach((elem) => {
+        observer.observe(elem);
+      });
+    </script>
+  </body>
+</html>
