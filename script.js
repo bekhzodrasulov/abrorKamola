@@ -41,7 +41,7 @@ function updateCountdown() {
 setInterval(updateCountdown, 1000);
 updateCountdown();
 
-if (!/Mobi|Android|iPhone|iPad/i.test(navigator.userAgent)) {
+/* if (!/Mobi|Android|iPhone|iPad/i.test(navigator.userAgent)) {
   document.body.innerHTML = `
       <div style="text-align:center; padding: 50px; font-family: sans-serif;">
         <h2>Faqat mobil qurilmalardan kirish mumkin 📱</h2>
@@ -52,4 +52,4 @@ if (!/Mobi|Android|iPhone|iPad/i.test(navigator.userAgent)) {
         <p>Please open the site on a phone.</p>
       </div>
     `;
-}
+} */

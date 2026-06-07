@@ -109,7 +109,7 @@ html {
   }
 
   .hero h1 {
-    font-family: "Cormorant Infant", serif;
+    font-family: "Dancing Script", cursive;
     font-size: 80px;
     font-weight: 500;
     line-height: 130%;
@@ -495,7 +495,7 @@ html {
   }
 
   .hero h1 {
-    font-family: "Cormorant Infant", serif;
+    font-family: "Dancing Script", cursive;
     font-size: 80px;
     font-weight: 500;
     line-height: 130%;
@@ -843,8 +843,8 @@ html {
   padding: 50px 20px;
 }
 
-.hero h1 {
-  font-family: "Cormorant Infant", serif;
+.hero h1 span {
+  font-family: "Dancing Script", cursive;
   font-size: 80px;
   font-weight: 500;
   line-height: 130%;
@@ -864,7 +864,7 @@ html {
 }
 
 .names {
-  font-family: "Cormorant Infant", serif;
+  font-family: "Dancing Script";
   font-size: 35px;
   font-weight: 400;
   font-style: italic;
